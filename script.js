@@ -19,6 +19,9 @@ addBtn.addEventListener("click", function(e) {
 //   console.log(notesObj);
   showNotes();
  }
+ else {
+  alert("Please add a Note");
+ }
 });
 
 // Function to show elements from localStorage
